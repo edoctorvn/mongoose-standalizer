@@ -1,0 +1,32 @@
+{
+  "name": "@edoctor/mongoose-standalizer",
+  "version": "1.0.0",
+  "description": "Mongoose Standalizeer Plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/edoctorvn/mongoose-standalizer.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "mongoose",
+    "standalizer"
+  ],
+  "author": "TaiNA taina@secret.fyi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edoctorvn/mongoose-standalizer/issues"
+  },
+  "homepage": "https://github.com/edoctorvn/mongoose-standalizer#readme",
+  "dependencies": {
+    "dot-prop": "^6.0.1"
+  },
+  "peerDependencies": {
+    "mongoose": "^4 || ^5"
+  }
+}
